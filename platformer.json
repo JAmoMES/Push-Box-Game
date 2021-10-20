@@ -2456,6 +2456,51 @@
         "name": "Jump (3)5.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hurt (8).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hurt (8).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Jump (1)3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jump (1)3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hurt (1)3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hurt (1)3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hurt (1)4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hurt (1)4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hurt (8)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hurt (8)2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -11919,8 +11964,8 @@
           "name": "Player",
           "persistentUuid": "d7ff094c-d901-4919-9358-e08881fb963f",
           "width": 160,
-          "x": 4461,
-          "y": -319,
+          "x": 4275,
+          "y": 306,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -24171,7 +24216,24 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Hurt (1).png",
+                      "image": "Jump (1)3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Hurt (1)4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -24205,7 +24267,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Hurt (1).png",
+                      "image": "Hurt (1)4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -24222,7 +24284,24 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Jump (3)5.png",
+                      "image": "Jump (2)4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Hurt (1)4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -30120,6 +30199,17 @@
                 "PlatformerObject"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"a\""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [],
@@ -31226,18 +31316,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "Score",
-                "+",
-                "100"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "Tween::AddObjectOpacityTween"
               },
               "parameters": [
@@ -32050,8 +32128,64 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PushableObjects",
+                "Mushroom",
+                "",
+                "",
+                "no"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Mushroom",
+                "=",
+                "255"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Mushroom",
+                "=",
+                "254"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "Mushroom",
+                "Tween",
+                "\"FadeOut\"",
+                "0",
+                "\"easeInQuad\"",
+                "200",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         }
       ],
@@ -32285,7 +32419,7 @@
             {
               "name": "value",
               "type": "string",
-              "value": "Rest the Game"
+              "value": "Reset the Game"
             },
             {
               "name": "Variable",
@@ -32852,7 +32986,7 @@
                 "GreyButton",
                 "value",
                 "=",
-                "0"
+                "1"
               ],
               "subInstructions": []
             },
