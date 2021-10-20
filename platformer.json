@@ -2501,6 +2501,60 @@
         "name": "Hurt (8)2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sign_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sign_22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sign_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sign_12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ArrowSign2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ArrowSign2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sign3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sign3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SignArrow2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SignArrow2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sign4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sign4.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5646,7 +5700,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5,
+        "zoomFactor": 0.52,
         "windowMask": false
       },
       "objectsGroups": [
@@ -5707,7 +5761,7 @@
             {
               "name": "value",
               "type": "string",
-              "value": "900"
+              "value": "700"
             }
           ]
         },
@@ -5729,7 +5783,7 @@
             {
               "name": "value",
               "type": "string",
-              "value": "800"
+              "value": "600"
             }
           ]
         },
@@ -5751,7 +5805,7 @@
             {
               "name": "value",
               "type": "string",
-              "value": "600"
+              "value": "500"
             }
           ]
         },
@@ -5773,7 +5827,7 @@
             {
               "name": "value",
               "type": "string",
-              "value": "800"
+              "value": "600"
             },
             {
               "name": "Variable",
@@ -5800,7 +5854,7 @@
             {
               "name": "value",
               "type": "string",
-              "value": "600"
+              "value": "500"
             },
             {
               "name": "Variable",
@@ -5827,7 +5881,7 @@
             {
               "name": "value",
               "type": "string",
-              "value": "900"
+              "value": "700"
             },
             {
               "name": "Variable",
@@ -10575,7 +10629,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5,
+        "zoomFactor": 0.15999999999999984,
         "windowMask": true
       },
       "objectsGroups": [
@@ -11929,22 +11983,6 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Checkpoint",
-          "persistentUuid": "e98eeefa-ab53-4617-a950-e9f6ee36ebc7",
-          "width": 0,
-          "x": 4334,
-          "y": 421,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "SmallMushroom",
           "persistentUuid": "48d72ee5-78f7-45fe-9023-e00bbc55f5d0",
           "width": 0,
@@ -11964,8 +12002,8 @@
           "name": "Player",
           "persistentUuid": "d7ff094c-d901-4919-9358-e08881fb963f",
           "width": 160,
-          "x": 4275,
-          "y": 306,
+          "x": 4404,
+          "y": 137,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -13374,38 +13412,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "SmallMushroom",
-          "persistentUuid": "e63ad771-6098-4455-b2b8-b1c4b349b5a4",
-          "width": 0,
-          "x": 4562,
-          "y": 63,
-          "zOrder": 362,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "SmallMushroom",
-          "persistentUuid": "49acccc2-8422-4e26-856c-2d4ec915e0a5",
-          "width": 0,
-          "x": 4911.2578125,
-          "y": 513.8486328125,
-          "zOrder": 362,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 32,
           "layer": "",
@@ -14377,8 +14383,8 @@
           "name": "Crate1",
           "persistentUuid": "9bae004f-40ba-469c-82bf-0b89808777de",
           "width": 0,
-          "x": 4818.2578125,
-          "y": -59.1513671875,
+          "x": 4960.33349609375,
+          "y": 11.5,
           "zOrder": 377,
           "numberProperties": [],
           "stringProperties": [],
@@ -17070,22 +17076,6 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "SmallMushroom",
-          "persistentUuid": "e0209025-5803-4d97-8e32-2b77f2ba844e",
-          "width": 0,
-          "x": 12288,
-          "y": 320,
-          "zOrder": 386,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "FloorPlatform1",
           "persistentUuid": "832a3d55-2e26-4a4b-bb68-fb9183db77a8",
           "width": 0,
@@ -18551,7 +18541,7 @@
           "name": "GoLeft",
           "persistentUuid": "303c044c-f693-4a69-a3e9-264b302be78f",
           "width": 0,
-          "x": 10432,
+          "x": 10518,
           "y": -1435,
           "zOrder": 400,
           "numberProperties": [],
@@ -18567,7 +18557,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "bde913fc-4ac8-4c40-9f78-36eadb106d29",
           "width": 0,
-          "x": 10496,
+          "x": 10582,
           "y": -1408,
           "zOrder": 77,
           "numberProperties": [
@@ -18588,7 +18578,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "d2174b18-25d8-4d4d-87fb-20a7a3af59cc",
           "width": 0,
-          "x": 10624,
+          "x": 10710,
           "y": -1408,
           "zOrder": 77,
           "numberProperties": [
@@ -18609,7 +18599,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "77a45d06-12b4-4426-9b25-8ebbe4011eb4",
           "width": 0,
-          "x": 10752,
+          "x": 10838,
           "y": -1408,
           "zOrder": 77,
           "numberProperties": [
@@ -18672,7 +18662,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "7c3ee8f8-b700-4659-a304-0d3424e624c6",
           "width": 0,
-          "x": 11008,
+          "x": 11094,
           "y": -1408,
           "zOrder": 77,
           "numberProperties": [
@@ -18693,7 +18683,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "117d3fbb-f4d9-404a-98fe-c2f46e6ed350",
           "width": 0,
-          "x": 11136,
+          "x": 11222,
           "y": -1408,
           "zOrder": 77,
           "numberProperties": [
@@ -18714,7 +18704,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "cb57500a-ea02-4f0f-9798-7f538b9c3675",
           "width": 0,
-          "x": 11264,
+          "x": 11350,
           "y": -1408,
           "zOrder": 77,
           "numberProperties": [
@@ -18735,7 +18725,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "95492492-943a-4563-80d8-b70fddf73333",
           "width": 128,
-          "x": 11776,
+          "x": 11862,
           "y": -1408,
           "zOrder": 77,
           "numberProperties": [
@@ -18756,7 +18746,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "2707d491-b3e5-416f-a406-7827a48e5817",
           "width": 0,
-          "x": 11008,
+          "x": 11094,
           "y": -1280,
           "zOrder": 77,
           "numberProperties": [
@@ -18777,7 +18767,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "ef014efa-9222-4e29-a349-462d13432df3",
           "width": 0,
-          "x": 11008,
+          "x": 11094,
           "y": -1152,
           "zOrder": 77,
           "numberProperties": [
@@ -18798,7 +18788,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "7725f03b-ec4c-416f-9675-2445d0a5dac5",
           "width": 0,
-          "x": 11136,
+          "x": 11222,
           "y": -1152,
           "zOrder": 77,
           "numberProperties": [
@@ -18819,7 +18809,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "9597080a-7bac-4e7f-9327-a3be0876f9a1",
           "width": 0,
-          "x": 11520,
+          "x": 11606,
           "y": -1408,
           "zOrder": 77,
           "numberProperties": [
@@ -18840,7 +18830,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "cffef14b-3c0f-4290-99eb-c34a900e0e9f",
           "width": 0,
-          "x": 11392,
+          "x": 11478,
           "y": -1408,
           "zOrder": 77,
           "numberProperties": [
@@ -18861,7 +18851,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "6d54d8ae-fa0e-46cf-adeb-f2f5c832de5d",
           "width": 0,
-          "x": 11648,
+          "x": 11734,
           "y": -1408,
           "zOrder": 77,
           "numberProperties": [
@@ -18882,7 +18872,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "7f7d6edb-aac5-418a-9423-2dbd593ce361",
           "width": 0,
-          "x": 11264,
+          "x": 11350,
           "y": -1152,
           "zOrder": 77,
           "numberProperties": [
@@ -18903,7 +18893,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "0ff5a061-cee0-4123-937d-9e7e3db648b1",
           "width": 0,
-          "x": 11392,
+          "x": 11478,
           "y": -1152,
           "zOrder": 77,
           "numberProperties": [
@@ -18924,7 +18914,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "fa66585f-f75a-40e4-8761-5fa24898e238",
           "width": 0,
-          "x": 11520,
+          "x": 11606,
           "y": -1152,
           "zOrder": 77,
           "numberProperties": [
@@ -18945,7 +18935,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "0bda5707-2efa-47b9-9af7-8f5098f15ec0",
           "width": 0,
-          "x": 11648,
+          "x": 11734,
           "y": -1152,
           "zOrder": 77,
           "numberProperties": [
@@ -18966,7 +18956,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "3aa5be0b-d9a7-4898-af29-fdf4db53ee6f",
           "width": 0,
-          "x": 11136,
+          "x": 11222,
           "y": -1280,
           "zOrder": 77,
           "numberProperties": [
@@ -18987,7 +18977,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "cfa48dcd-2bcb-4540-87ff-df95ee2e6219",
           "width": 0,
-          "x": 11264,
+          "x": 11350,
           "y": -1280,
           "zOrder": 77,
           "numberProperties": [
@@ -19008,7 +18998,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "e1ef749e-0887-405f-a28b-e2e8f48201dc",
           "width": 0,
-          "x": 11392,
+          "x": 11478,
           "y": -1280,
           "zOrder": 77,
           "numberProperties": [
@@ -19029,7 +19019,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "377eecc5-8ca7-412c-a9d8-1444d7339bc5",
           "width": 0,
-          "x": 11520,
+          "x": 11606,
           "y": -1280,
           "zOrder": 77,
           "numberProperties": [
@@ -19050,7 +19040,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "5e1db613-f99b-4a28-bfa3-5912564ef967",
           "width": 0,
-          "x": 11648,
+          "x": 11734,
           "y": -1280,
           "zOrder": 77,
           "numberProperties": [
@@ -19071,7 +19061,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "251e8433-8d9d-4bea-94e5-fe69f1e1773e",
           "width": 0,
-          "x": 11776,
+          "x": 11862,
           "y": -1152,
           "zOrder": 77,
           "numberProperties": [
@@ -19092,7 +19082,7 @@
           "name": "FloorPlatform1",
           "persistentUuid": "bf95e143-6a37-4d04-ae09-98d1d2d2af90",
           "width": 0,
-          "x": 11776,
+          "x": 11862,
           "y": -1280,
           "zOrder": 77,
           "numberProperties": [
@@ -19113,7 +19103,7 @@
           "name": "Jumpthru",
           "persistentUuid": "587cb754-1993-4641-abbe-ac34592f0d4b",
           "width": 70,
-          "x": 11898,
+          "x": 11984,
           "y": -1113,
           "zOrder": 361,
           "numberProperties": [],
@@ -19129,8 +19119,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "1f4ac6f7-0a4e-45ae-bc21-8966db3dfd72",
           "width": 0,
-          "x": 12224,
-          "y": -1344,
+          "x": 12241,
+          "y": -1340,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -19150,8 +19140,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "5e6f0171-0bd9-4c96-b42b-3c58347087ec",
           "width": 0,
-          "x": 12352,
-          "y": -1344,
+          "x": 12369,
+          "y": -1340,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -19171,8 +19161,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "39cd938f-1950-44d7-b28e-d43f57d7f849",
           "width": 0,
-          "x": 13120,
-          "y": -1344,
+          "x": 13137,
+          "y": -1340,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -19192,8 +19182,8 @@
           "name": "Crate2",
           "persistentUuid": "74267315-a1ec-4852-a1fc-cc7a502ef916",
           "width": 0,
-          "x": 11776,
-          "y": -1472,
+          "x": 12945,
+          "y": -1410.5,
           "zOrder": 402,
           "numberProperties": [],
           "stringProperties": [],
@@ -19208,7 +19198,7 @@
           "name": "SmallMushroom",
           "persistentUuid": "a21da818-7f43-4127-bbd8-18362d19dcd7",
           "width": 0,
-          "x": 10496,
+          "x": 10582,
           "y": -1472,
           "zOrder": 403,
           "numberProperties": [],
@@ -19224,7 +19214,7 @@
           "name": "Friction3",
           "persistentUuid": "79168d19-0043-47bf-a62c-e5458829dcaa",
           "width": 902,
-          "x": 11002,
+          "x": 11088,
           "y": -1428,
           "zOrder": 0,
           "numberProperties": [],
@@ -19240,8 +19230,8 @@
           "name": "Friction3",
           "persistentUuid": "728fea1b-f630-4ca0-937b-54ee33045f55",
           "width": 1024,
-          "x": 12224,
-          "y": -1363,
+          "x": 12241,
+          "y": -1359,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -19256,7 +19246,7 @@
           "name": "Jumpthru",
           "persistentUuid": "6f370c5d-6b24-4f90-85d2-1e68310886e6",
           "width": 70,
-          "x": 12026,
+          "x": 12112,
           "y": -1024,
           "zOrder": 361,
           "numberProperties": [],
@@ -19272,8 +19262,8 @@
           "name": "Jumpthru",
           "persistentUuid": "a28fd424-799d-4cce-9a07-8a19b595827d",
           "width": 70,
-          "x": 12160,
-          "y": -921,
+          "x": 12236,
+          "y": -927,
           "zOrder": 361,
           "numberProperties": [],
           "stringProperties": [],
@@ -19320,8 +19310,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "9692db37-8e34-43a7-a9d5-e9f7a309e7c4",
           "width": 0,
-          "x": 12480,
-          "y": -1344,
+          "x": 12497,
+          "y": -1340,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -19341,8 +19331,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "c1858e5d-f7e4-46a7-9c74-d648c1868383",
           "width": 0,
-          "x": 12608,
-          "y": -1344,
+          "x": 12625,
+          "y": -1340,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -19362,8 +19352,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "720eda74-34a9-49c2-a8aa-d53b9b76bafc",
           "width": 0,
-          "x": 12736,
-          "y": -1344,
+          "x": 12753,
+          "y": -1340,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -19698,8 +19688,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "0020d676-06cb-4c70-a39d-980c367c4f1d",
           "width": 0,
-          "x": 12864,
-          "y": -1344,
+          "x": 12881,
+          "y": -1340,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -19803,8 +19793,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "a43a5b3c-5ce6-4b3e-b622-79ff3b0300ce",
           "width": 0,
-          "x": 12992,
-          "y": -1344,
+          "x": 13009,
+          "y": -1340,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -19824,8 +19814,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "37d15e4b-cacf-4f14-ab5c-e8c5155790fc",
           "width": 0,
-          "x": 13504,
-          "y": -576,
+          "x": 13537,
+          "y": -566,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -19845,8 +19835,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "b3567a4c-5da3-49a8-9cb3-89d8ec3ac2f2",
           "width": 0,
-          "x": 13632,
-          "y": -576,
+          "x": 13665,
+          "y": -566,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -19866,8 +19856,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "ba2e1902-a036-4ddd-8511-0e8562f90bd6",
           "width": 0,
-          "x": 13760,
-          "y": -576,
+          "x": 13793,
+          "y": -566,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -19887,8 +19877,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "6b32c5c8-3c7c-466e-9926-5bec8d07b977",
           "width": 0,
-          "x": 13504,
-          "y": -448,
+          "x": 13537,
+          "y": -438,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -19908,8 +19898,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "6f1b4388-d6d1-49d0-be84-2eba5bfa0e75",
           "width": 0,
-          "x": 13888,
-          "y": -576,
+          "x": 13921,
+          "y": -566,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -19929,8 +19919,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "a545f0f2-11cc-4c58-9935-ca6b2ed602eb",
           "width": 0,
-          "x": 13632,
-          "y": -448,
+          "x": 13665,
+          "y": -438,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -19950,8 +19940,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "4e544b6a-f0e7-4293-b870-2b57807367b8",
           "width": 0,
-          "x": 13760,
-          "y": -448,
+          "x": 13793,
+          "y": -438,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -19971,8 +19961,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "1bb4ff27-4dfc-45b4-9408-3e3ed83a94b1",
           "width": 128,
-          "x": 14016,
-          "y": -576,
+          "x": 14049,
+          "y": -566,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -19992,8 +19982,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "11756b2b-436b-4461-99bf-47da5dbe2ee9",
           "width": 0,
-          "x": 13888,
-          "y": -448,
+          "x": 13921,
+          "y": -438,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -20013,8 +20003,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "02cd61a8-80b2-4e5c-8cb7-6833833db722",
           "width": 0,
-          "x": 14016,
-          "y": -448,
+          "x": 14049,
+          "y": -438,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -20213,8 +20203,8 @@
           "name": "Crate3",
           "persistentUuid": "7a9915fb-b953-4b1a-805a-8a48829e9b96",
           "width": 0,
-          "x": 12883,
-          "y": -1112,
+          "x": 12907,
+          "y": -1115,
           "zOrder": 407,
           "numberProperties": [],
           "stringProperties": [],
@@ -20229,8 +20219,8 @@
           "name": "Jumpthru",
           "persistentUuid": "b97c0926-1d1d-47fd-8f55-beedb237d534",
           "width": 70,
-          "x": 13306,
-          "y": -409,
+          "x": 13292,
+          "y": -396,
           "zOrder": 361,
           "numberProperties": [],
           "stringProperties": [],
@@ -20245,8 +20235,8 @@
           "name": "Crate1",
           "persistentUuid": "1f848638-f36c-46d8-becf-e33e73838421",
           "width": 0,
-          "x": 12864,
-          "y": -1408,
+          "x": 11543.3330078125,
+          "y": -1460.5,
           "zOrder": 409,
           "numberProperties": [],
           "stringProperties": [],
@@ -20261,8 +20251,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "1547fd7a-589c-4ab4-b168-b5f3be29f8c2",
           "width": 0,
-          "x": 13504,
-          "y": -320,
+          "x": 13537,
+          "y": -310,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -20282,8 +20272,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "e8c0a285-166c-44aa-bb57-b97793a9c899",
           "width": 0,
-          "x": 13632,
-          "y": -320,
+          "x": 13665,
+          "y": -310,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -20303,8 +20293,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "b2db4824-5302-4114-9969-6d4613527ea2",
           "width": 0,
-          "x": 13760,
-          "y": -320,
+          "x": 13793,
+          "y": -310,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -20324,8 +20314,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "90be80bb-492d-44be-ae41-e7f7ed05f421",
           "width": 0,
-          "x": 13888,
-          "y": -320,
+          "x": 13921,
+          "y": -310,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -20345,8 +20335,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "263f121d-2d53-45a4-a91f-812a62fe2701",
           "width": 0,
-          "x": 14016,
-          "y": -320,
+          "x": 14049,
+          "y": -310,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -20450,8 +20440,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "b9f0353a-a0aa-431b-b91f-2e1e44c0f687",
           "width": 0,
-          "x": 14272,
-          "y": -640,
+          "x": 14320,
+          "y": -633,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -20471,8 +20461,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "97c7a6f8-f93d-4a4d-a780-4c3eef78d10a",
           "width": 0,
-          "x": 14400,
-          "y": -640,
+          "x": 14448,
+          "y": -633,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -20492,8 +20482,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "6b75c76f-0908-4aa6-88b0-0da905d7c8d6",
           "width": 0,
-          "x": 14528,
-          "y": -640,
+          "x": 14576,
+          "y": -633,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -20513,8 +20503,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "97774d97-475b-460b-b42d-a01abf63ac17",
           "width": 0,
-          "x": 14784,
-          "y": -704,
+          "x": 14832,
+          "y": -697,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -20534,8 +20524,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "5dfebd2d-dcc6-420d-87fd-4e1e8e683cc9",
           "width": 0,
-          "x": 14912,
-          "y": -704,
+          "x": 14960,
+          "y": -697,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -20555,8 +20545,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "eef4085f-862d-442d-88bc-db75b90fa069",
           "width": 0,
-          "x": 15040,
-          "y": -704,
+          "x": 15088,
+          "y": -697,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -20576,8 +20566,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "4acad425-848f-410f-8121-e1eaa7b436d9",
           "width": 0,
-          "x": 15296,
-          "y": -768,
+          "x": 15344,
+          "y": -761,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -20597,8 +20587,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "df7bca8f-98fe-46cc-a642-17d2c968fa0a",
           "width": 0,
-          "x": 15424,
-          "y": -768,
+          "x": 15472,
+          "y": -761,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -20618,8 +20608,8 @@
           "name": "FloorPlatform1",
           "persistentUuid": "23be93ca-89ac-4b10-8117-eaa3391ca424",
           "width": 0,
-          "x": 15552,
-          "y": -768,
+          "x": 15600,
+          "y": -761,
           "zOrder": 77,
           "numberProperties": [
             {
@@ -20639,8 +20629,8 @@
           "name": "BigMushroom",
           "persistentUuid": "70b6c005-d2c2-436b-890e-4c02a4dc180f",
           "width": 0,
-          "x": 5978,
-          "y": 464,
+          "x": 5733,
+          "y": 465,
           "zOrder": 410,
           "numberProperties": [],
           "stringProperties": [],
@@ -20722,22 +20712,6 @@
           "x": 8847,
           "y": 662,
           "zOrder": 361,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "SmallMushroom",
-          "persistentUuid": "f6d2bfd8-9904-4593-8a2c-638e1f42cc2f",
-          "width": 0,
-          "x": 8973,
-          "y": 572,
-          "zOrder": 414,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20876,60 +20850,12 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "SmallMushroom",
-          "persistentUuid": "3b5b40b8-9535-4eab-875d-8e0581c82ebd",
-          "width": 0,
-          "x": 9902,
-          "y": 135,
-          "zOrder": 419,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "BigMushroom",
           "persistentUuid": "bc95ebfb-bd37-4b25-93b3-94c47b7e4298",
           "width": 0,
-          "x": 10200,
-          "y": -344,
+          "x": 10147,
+          "y": -345,
           "zOrder": 420,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "SmallMushroom",
-          "persistentUuid": "30ec6d19-8cae-482e-a587-f7acc006f54a",
-          "width": 0,
-          "x": 10289,
-          "y": -314,
-          "zOrder": 422,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "SmallMushroom",
-          "persistentUuid": "ef4818d9-8a1c-4700-92fc-c6a7e06d6340",
-          "width": 0,
-          "x": 10127,
-          "y": -314,
-          "zOrder": 423,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21878,8 +21804,8 @@
           "name": "BGobj",
           "persistentUuid": "57f82606-460d-486c-b5bd-4b2744aef62c",
           "width": 0,
-          "x": 8488,
-          "y": 533,
+          "x": 8323,
+          "y": 537,
           "zOrder": 0,
           "numberProperties": [
             {
@@ -21927,69 +21853,6 @@
             {
               "name": "animation",
               "value": 12
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BGobj",
-          "persistentUuid": "d5cfd4ee-14af-428b-b261-9cb2740d8488",
-          "width": 0,
-          "x": 4540,
-          "y": 430,
-          "zOrder": 0,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 6
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BGobj",
-          "persistentUuid": "dc40a2d1-6ccd-43f1-aa75-cfe1e4e8bc14",
-          "width": 0,
-          "x": 8746,
-          "y": 110,
-          "zOrder": 0,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 13
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BGobj",
-          "persistentUuid": "c68d5379-469f-474c-9751-4682269d009e",
-          "width": 0,
-          "x": 9412,
-          "y": 523,
-          "zOrder": 0,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 14
             }
           ],
           "stringProperties": [],
@@ -22214,8 +22077,8 @@
           "name": "BGobj",
           "persistentUuid": "5c85c5cf-7ca6-483e-8e6c-0b94e50c8cea",
           "width": 0,
-          "x": 11266,
-          "y": 568,
+          "x": 9406,
+          "y": 542,
           "zOrder": 0,
           "numberProperties": [
             {
@@ -22263,27 +22126,6 @@
             {
               "name": "animation",
               "value": 28
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BGobj",
-          "persistentUuid": "307fd325-b73b-4f7e-81d4-fb7dc7914b88",
-          "width": 0,
-          "x": 11228,
-          "y": -538,
-          "zOrder": 0,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 14
             }
           ],
           "stringProperties": [],
@@ -22443,27 +22285,6 @@
           "layer": "",
           "locked": false,
           "name": "BGobj",
-          "persistentUuid": "0dbfcd5d-f2fd-49f9-bc53-1fe3aea11cb9",
-          "width": 0,
-          "x": 12423,
-          "y": -722,
-          "zOrder": 0,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 13
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BGobj",
           "persistentUuid": "c6ece69f-0571-4265-b370-e1b15f91a4b6",
           "width": 0,
           "x": 12263,
@@ -22569,27 +22390,6 @@
           "layer": "",
           "locked": false,
           "name": "BGobj",
-          "persistentUuid": "b03f2f34-143e-4ae2-9082-78d0f6402e85",
-          "width": 0,
-          "x": 9783,
-          "y": -1488,
-          "zOrder": 0,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 13
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BGobj",
           "persistentUuid": "d2469b18-44b7-40b5-bd30-b5017dfb4c08",
           "width": 0,
           "x": 8536,
@@ -22613,7 +22413,7 @@
           "name": "BGobj",
           "persistentUuid": "9e9b25f1-7f8d-4fb9-9ab1-edd389056c49",
           "width": 0,
-          "x": 10605,
+          "x": 10691,
           "y": -1452,
           "zOrder": 0,
           "numberProperties": [
@@ -22655,8 +22455,8 @@
           "name": "BGobj",
           "persistentUuid": "4bf53468-f358-4801-9245-0fd6f4419b72",
           "width": 0,
-          "x": 12241,
-          "y": -1448,
+          "x": 12253,
+          "y": -1444,
           "zOrder": 0,
           "numberProperties": [
             {
@@ -22676,7 +22476,7 @@
           "name": "BGobj",
           "persistentUuid": "5810d1db-ac11-49d6-a516-2760bac8ed9a",
           "width": 562,
-          "x": 10968,
+          "x": 11054,
           "y": -1862,
           "zOrder": 0,
           "numberProperties": [
@@ -22697,8 +22497,8 @@
           "name": "BGobj",
           "persistentUuid": "d31f2d86-df35-449c-9582-376acd87d93d",
           "width": 0,
-          "x": 12612,
-          "y": -1414,
+          "x": 12629,
+          "y": -1410,
           "zOrder": 0,
           "numberProperties": [
             {
@@ -22739,8 +22539,8 @@
           "name": "BGobj",
           "persistentUuid": "32c1123f-ec77-4989-b9b6-834b538c1f40",
           "width": 0,
-          "x": 13043,
-          "y": -1390,
+          "x": 13060,
+          "y": -1386,
           "zOrder": 0,
           "numberProperties": [
             {
@@ -22760,8 +22560,8 @@
           "name": "BGobj",
           "persistentUuid": "4b6d3f5d-0eff-4670-bb7c-8bbf1901bad0",
           "width": 0,
-          "x": 13545,
-          "y": -614,
+          "x": 13578,
+          "y": -604,
           "zOrder": 0,
           "numberProperties": [
             {
@@ -22781,8 +22581,8 @@
           "name": "BGobj",
           "persistentUuid": "aa457b08-c3be-40ba-b51d-1f9f7cc9306b",
           "width": 0,
-          "x": 13577,
-          "y": -603,
+          "x": 13610,
+          "y": -593,
           "zOrder": 0,
           "numberProperties": [
             {
@@ -22802,8 +22602,8 @@
           "name": "BGobj",
           "persistentUuid": "c4fc8bb2-1ed6-456c-a335-c6e06b83443a",
           "width": 0,
-          "x": 14528,
-          "y": -696,
+          "x": 14576,
+          "y": -689,
           "zOrder": 0,
           "numberProperties": [
             {
@@ -22923,8 +22723,8 @@
           "name": "BGobj",
           "persistentUuid": "ebfd81dc-4589-47bf-bc0a-715446e4f920",
           "width": 0,
-          "x": 8467,
-          "y": 511,
+          "x": 8480,
+          "y": 508,
           "zOrder": 0,
           "numberProperties": [
             {
@@ -23313,12 +23113,12 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "BigMushroom",
-          "persistentUuid": "e67211f1-0737-42d7-b4b6-c8d99d2c68ab",
+          "name": "PlayerHitBox",
+          "persistentUuid": "25d1e68c-5853-4c4f-b55e-5f425879890c",
           "width": 0,
-          "x": 8491,
-          "y": 490,
-          "zOrder": 503,
+          "x": 4361,
+          "y": 300,
+          "zOrder": 504,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23329,12 +23129,467 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "PlayerHitBox",
-          "persistentUuid": "25d1e68c-5853-4c4f-b55e-5f425879890c",
+          "name": "SmallMushroom",
+          "persistentUuid": "51f7ba11-3028-466f-87ab-8b0954b46ebe",
           "width": 0,
-          "x": 4347,
-          "y": 326,
-          "zOrder": 504,
+          "x": 6250,
+          "y": 364,
+          "zOrder": 505,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "SmallMushroom",
+          "persistentUuid": "4bb7f2b7-56a0-4c91-a3a3-ac5ca6f54489",
+          "width": 0,
+          "x": 4588,
+          "y": 42,
+          "zOrder": 506,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "SmallMushroom",
+          "persistentUuid": "ee204106-e842-43a9-8714-d3322e0d2a98",
+          "width": 0,
+          "x": 5215,
+          "y": 473,
+          "zOrder": 507,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "SmallMushroom",
+          "persistentUuid": "80a74030-c586-4670-8205-653e5e2849e8",
+          "width": 0,
+          "x": 5321,
+          "y": 468,
+          "zOrder": 508,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BigMushroom",
+          "persistentUuid": "d0653910-4f44-4ddc-9cf5-168001592c18",
+          "width": 0,
+          "x": 8359,
+          "y": 487,
+          "zOrder": 509,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Checkpoint",
+          "persistentUuid": "54864cd3-8e1c-4ab2-860f-b6d0c5e83cc5",
+          "width": 0,
+          "x": 11219,
+          "y": -543,
+          "zOrder": 30,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Checkpoint",
+          "persistentUuid": "46391457-674c-4fc6-94e8-de4e27bdd67c",
+          "width": 0,
+          "x": 11094,
+          "y": 548,
+          "zOrder": 30,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Checkpoint",
+          "persistentUuid": "dd4e5679-b968-4bdb-aae7-8a657e71b345",
+          "width": 0,
+          "x": 11548.76171875,
+          "y": 662.2857055664062,
+          "zOrder": 30,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Checkpoint",
+          "persistentUuid": "cfa0bc9b-fcc3-4381-ab27-9d3639d4cd75",
+          "width": 0,
+          "x": 8709,
+          "y": 107,
+          "zOrder": 30,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Checkpoint",
+          "persistentUuid": "410056f6-c8db-483d-9880-8319c0ed05ca",
+          "width": 0,
+          "x": 4349,
+          "y": 427,
+          "zOrder": 30,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Checkpoint",
+          "persistentUuid": "9bbd3d95-9fdd-4c10-8a40-d9e1cda9c4b9",
+          "width": 0,
+          "x": 4018.11767578125,
+          "y": 403.4705810546875,
+          "zOrder": 30,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Checkpoint",
+          "persistentUuid": "74e46abf-f926-4e77-9579-182ce0741f11",
+          "width": 0,
+          "x": 6402,
+          "y": 235,
+          "zOrder": 30,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Checkpoint",
+          "persistentUuid": "05d74b35-58e6-46b5-9a7c-41904916a5b7",
+          "width": 0,
+          "x": 8592,
+          "y": -970,
+          "zOrder": 30,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Checkpoint",
+          "persistentUuid": "46584c8b-abe7-4592-aba1-642cbc440918",
+          "width": 0,
+          "x": 12414,
+          "y": -730,
+          "zOrder": 30,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Checkpoint",
+          "persistentUuid": "154f1e05-7b36-4b6f-b2e8-2e913c52507d",
+          "width": 0,
+          "x": 9780,
+          "y": -1495,
+          "zOrder": 30,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Checkpoint",
+          "persistentUuid": "2a9430b9-46ad-4f73-8299-c56cb3051313",
+          "width": 0,
+          "x": 12440,
+          "y": -1431,
+          "zOrder": 30,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BigMushroom",
+          "persistentUuid": "af2592af-25ec-40d9-880a-62eb50c034af",
+          "width": 0,
+          "x": 12280,
+          "y": 284,
+          "zOrder": 510,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "SmallMushroom",
+          "persistentUuid": "938e097e-d3ea-4cd0-9105-4190b324983a",
+          "width": 0,
+          "x": 12130,
+          "y": 527,
+          "zOrder": 511,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "SmallMushroom",
+          "persistentUuid": "d21c1a2f-da03-46c4-b0fb-8696f53e318c",
+          "width": 0,
+          "x": 8437,
+          "y": 504,
+          "zOrder": 512,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BigMushroom",
+          "persistentUuid": "3b4a9600-1dcd-4413-8124-6e6b20d489a9",
+          "width": 0,
+          "x": 9878,
+          "y": 23,
+          "zOrder": 513,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BigMushroom",
+          "persistentUuid": "665edf30-d8dc-4e9c-ac8f-a645bfabf9c7",
+          "width": 0,
+          "x": 10243,
+          "y": -345,
+          "zOrder": 514,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "SmallMushroom",
+          "persistentUuid": "214b286a-5f2b-4a7c-a4ca-f12ee3ec6d16",
+          "width": 0,
+          "x": 10106,
+          "y": -313,
+          "zOrder": 516,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "SmallMushroom",
+          "persistentUuid": "fafc1411-05c0-4ef2-a3c1-9e4afd3539f7",
+          "width": 0,
+          "x": 10206,
+          "y": -310,
+          "zOrder": 517,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "SmallMushroom",
+          "persistentUuid": "3120b3f3-0bdb-494c-be67-349c22c2c459",
+          "width": 0,
+          "x": 10300,
+          "y": -312,
+          "zOrder": 518,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "SmallMushroom",
+          "persistentUuid": "cb7babe1-85dd-4d91-b56b-db0b9972dd3e",
+          "width": 0,
+          "x": 12371,
+          "y": -1398,
+          "zOrder": 519,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 25,
+          "layer": "",
+          "locked": false,
+          "name": "Jumpthru",
+          "persistentUuid": "dcfc53cb-979f-47ba-977a-acb819ac9d92",
+          "width": 70,
+          "x": 13424,
+          "y": -482,
+          "zOrder": 361,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25656,6 +25911,180 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "cactus.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sign_22.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sign_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ArrowSign2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sign3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "SignArrow2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sign4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
