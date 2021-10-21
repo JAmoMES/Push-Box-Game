@@ -21,4 +21,4 @@ The app will reload if you make edits.
 ### `yarn build`
 
 Builds the app for production to the `dist` folder.\
-This build app works on Windows,\ macOS and Linux operating systems.
+This build app works on Windows, macOS and Linux operating systems.
