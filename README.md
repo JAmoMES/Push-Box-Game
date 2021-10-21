@@ -1,4 +1,4 @@
-### [Bridge Box](https://jamomess.itch.io/bridge-box) game made with GDevelop.
+# [Bridge Box](https://jamomess.itch.io/bridge-box) game made with GDevelop.
 
 **Game Site**: https://jamomess.itch.io/bridge-box
 
