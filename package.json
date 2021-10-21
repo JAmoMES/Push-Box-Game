@@ -1,13 +1,11 @@
 {
-  "name": "platformer",
+  "name": "Box Bridge",
   "main": "main.js",
   "productName": "Platformer",
   "description": "Platformer",
   "author": "",
   "version": "1.0.0",
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "scripts": {
     "start": "electron main.js",
     "build": "electron-builder"
