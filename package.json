@@ -1,8 +1,8 @@
 {
-  "name": "Box Bridge",
+  "name": "box-bridge",
   "main": "main.js",
-  "productName": "Platformer",
-  "description": "Platformer",
+  "productName": "box-bridge",
+  "description": "push the box and find the way to get A+",
   "author": "",
   "version": "1.0.0",
   "dependencies": {},
