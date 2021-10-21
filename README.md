@@ -14,11 +14,11 @@ To install all dependency.
 
 ### `yarn start`
 
-Runs the app in the development mode.
-Launch the app in fullscreen with DevTools open.
+Runs the app in the development mode.\
+Launch the app in fullscreen with DevTools open.\
 The app will reload if you make edits.
 
 ### `yarn build`
 
-Builds the app for production to the `dist` folder.
-This build app works on Windows, macOS and Linux operating systems.
+Builds the app for production to the `dist` folder.\
+This build app works on Windows,\ macOS and Linux operating systems.
