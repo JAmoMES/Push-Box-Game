@@ -2983,6 +2983,20 @@
         "name": "Tile (14)2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Screen_Recording_2564-11-07_at_17.40.45.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Screen_Recording_2564-11-07_at_17.40.45.mp4",
+        "userAdded": true
+      },
+      {
+        "file": "Screen_Recording_2564-11-07_at_17.40.452.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Screen_Recording_2564-11-07_at_17.40.452.mp4",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5928,7 +5942,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3999999999999999,
+        "zoomFactor": 0.8200000000000003,
         "windowMask": false
       },
       "objectsGroups": [
@@ -5977,7 +5991,7 @@
           "name": "BluePanel",
           "persistentUuid": "bfff89ab-ff68-4770-85aa-f4965efb918d",
           "width": 629,
-          "x": 18,
+          "x": 40,
           "y": 491,
           "zOrder": 10,
           "numberProperties": [],
@@ -5993,75 +6007,10 @@
           "name": "Title",
           "persistentUuid": "4ce4b170-df9a-4f1d-90c3-d50f4fbae1dc",
           "width": 0,
-          "x": 58,
+          "x": 73,
           "y": 513,
           "zOrder": 17,
           "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "PlayButton2",
-          "persistentUuid": "ed21ce29-e998-488c-a97a-2a04f0d11a4c",
-          "width": 0,
-          "x": 72,
-          "y": 140,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "value",
-              "type": "string",
-              "value": "-1"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "PlayButton",
-          "persistentUuid": "c566176c-2f5f-431f-bf39-efed53403bdc",
-          "width": 0,
-          "x": 624,
-          "y": 152,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "value",
-              "type": "string",
-              "value": "1"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 326.0417785644531,
-          "layer": "",
-          "locked": false,
-          "name": "Map",
-          "persistentUuid": "2aab9695-ccc0-46ce-a97e-cb06411013f4",
-          "width": 589.7733764648438,
-          "x": 73,
-          "y": 19,
-          "zOrder": 0,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 50331648
-            }
-          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -6090,9 +6039,25 @@
           "name": "Next",
           "persistentUuid": "e1fb7a28-5d7f-43fc-ab90-c0a98a3d7be8",
           "width": 0,
-          "x": 659,
+          "x": 679,
           "y": 487,
           "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 404,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject4",
+          "persistentUuid": "2beeeb17-db6e-439a-a0d1-97f845525787",
+          "width": 749,
+          "x": 53,
+          "y": 50,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6627,6 +6592,20 @@
               ]
             }
           ]
+        },
+        {
+          "name": "NewObject4",
+          "tags": "",
+          "type": "Video::VideoObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "opacity": 255,
+            "loop": true,
+            "volume": 0,
+            "videoResource": "Screen_Recording_2564-11-07_at_17.40.45.mp4"
+          }
         }
       ],
       "events": [
@@ -6718,6 +6697,16 @@
                 "Title",
                 "=",
                 "30"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "NewObject4"
               ],
               "subInstructions": []
             }
@@ -7111,6 +7100,14 @@
               "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         },
         {
@@ -14596,7 +14593,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43000000000000005,
+        "zoomFactor": 0.20999999999999994,
         "windowMask": true
       },
       "objectsGroups": [
@@ -26599,8 +26596,8 @@
           "name": "BGobj",
           "persistentUuid": "21b84598-1584-43d1-8e47-5e60bb242efc",
           "width": 0,
-          "x": 8140,
-          "y": 991,
+          "x": 5896,
+          "y": 2584,
           "zOrder": 0,
           "numberProperties": [
             {
@@ -26620,8 +26617,8 @@
           "name": "BGobj",
           "persistentUuid": "3ef47eb7-ba40-4b90-a329-4afbe1b35135",
           "width": 0,
-          "x": 7756,
-          "y": 957,
+          "x": 5634,
+          "y": 2524,
           "zOrder": 0,
           "numberProperties": [
             {
